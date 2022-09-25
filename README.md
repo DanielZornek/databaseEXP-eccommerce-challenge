@@ -1,1 +1,3 @@
-# databaseEXP-eccommerce-challenge
+# Desafio de Refinamento de um E-commerce - DIO Database Experience
+
+O cliente com apenas um documento CPF/CNPJ fará a requisição do pedido onde haverá um ou mais produtos da loja, em que se há a existência de fornecedores diversos. No Refinamento criei outras duas entidades: Forma de Pagamento e Entrega, onde o usuário poderia colocar mais de uma forma de pagar pelo pedido, assim o pedido herdou seus atributos e na entrega o status e código de rastreio igualmente. POr conta do CPF e CNPJ não poderem ser repetidos os coloquei em um único atributo, assim a pessoa que for cadastrar entenderá que só poderá um.
